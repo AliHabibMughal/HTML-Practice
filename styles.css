@@ -1,0 +1,42 @@
+h1{
+    background: rgb(212, 210, 210);
+    text-decoration: underline;
+    text-align: center;
+    padding: 20px;
+}
+
+h2{
+    text-align: left;
+    background: crimson;
+    color: whitesmoke;
+    font-style: italic;
+    padding: 10px;
+    text-shadow: 2px 2px slategray;
+}
+p{
+    text-align: left;
+    color: darkslateblue;
+    line-height: 15px;
+}
+ul{
+    border: 5px dashed brown;
+}
+li{
+    color: rgb(95, 95, 95);
+    font-family: arial;
+    
+}
+p.error{
+    color: red;
+    font-weight: bold;
+}
+p.yellow
+{
+    color: yellow;
+    font-style: italic;
+    background: gray;
+}
+p.yellow.one
+{
+    border: white 5px dotted;
+}

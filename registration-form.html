@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Registration Page</title>
+</head>
+<body>
+    <h1>Fill Up The Registration Form:</h1>
+    <h2>Please fill up your details here!</h2>
+    <form>
+        <!-- name attribute for php server side processing -->
+
+        <label for="username">Enter Your Username:</label> <br>
+        <input type="text" id="username" name="username" placeholder="type username" required> 
+        <br><br>
+
+        <label for="email">Enter Your Email Addrees:</label> <br>
+        <input type="email" id="email" name="email" placeholder="enter email" required> 
+        <br><br>
+
+        <label for="password">Enter Your Password:</label> <br>
+        <input type="password" id="password" name="password" placeholder="enter password" required>
+
+
+    <h2>Now Please Select Your Gender</h2>
+        <input type="radio" value="male" name="gender">Male
+        <br>
+        <input type="radio" value="female" name="gender">Female
+        <br>
+        <input type="radio" value="other" name="gender">Other
+        <br>
+
+    <h2>Now Select Your Age Below:</h2>
+        <input type="radio" name="age" value="0-20" id="option1">
+        <label for="option1">0-20</label> <br>
+
+        <input type="radio" name="age" value="21-40" id="option2"> 
+        <label for="option2">21-40</label> <br>
+
+        <input type="radio" name="age" value="40+" id="option3">
+        <label for="option3">More Than 40</label> <br>
+
+        <h2>Choose Your Security Question Below</h2>
+        <label for="question">Security Questions:</label>
+        <select name="question" id="question">
+            <option value="q1">What's Your Father's Name?</option>
+            <option value="q2">What's Your Favorite Color?</option>
+            <option value="q3">What's Your Middle Name?</option>
+            <option value="q4">Who Is Your Best Friend?</option>
+        </select>
+        <br> <br>
+        <label for="answer">Type Your Answer:</label>
+        <input type="text" id="answer" name="answer">
+        <br><br>
+
+        <label for="bio">Enter Your Bio:</label> <br>
+        <textarea name="bio" id="bio" cols="30" rows="10" placeholder="enter bio"></textarea>
+        <br><br>
+
+        <input type="submit" value="Submit The Form">
+    </form>
+    <br>
+    <h3>Visit <a href="index.html">Home Page</a>
+    Or <a href="rough.html">Rough Page</a></h3>
+</body>
+</html>
